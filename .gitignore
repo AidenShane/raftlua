@@ -14,3 +14,6 @@ obj/
 .env
 .env.*
 !.env.example
+
+# Debug Files
+Program.cs
