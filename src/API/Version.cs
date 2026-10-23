@@ -1,13 +1,13 @@
 
 using MoonSharp.Interpreter;
 
-namespace RaftLua.Core.API;
+namespace RaftLua.src.API;
 
 public static class Version
 {
     public static void Register(Script lua, Table raft)
     {
         #pragma warning disable
-        raft["Version"] = cpackages.Debug.version.ToString();
+        raft["Version"] = Packages.Debug.version.ToString();
     }
 }

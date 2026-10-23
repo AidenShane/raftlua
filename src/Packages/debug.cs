@@ -1,6 +1,6 @@
 using System.Reflection;
 
-namespace RaftLua.Core.cpackages;
+namespace RaftLua.src.Packages;
 
 public static class Debug
 {

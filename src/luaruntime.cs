@@ -1,6 +1,6 @@
 
 using MoonSharp.Interpreter;
-using RaftLua.Core.API;
+using RaftLua.src.API;
 
 namespace RaftLua.Core;
 
@@ -16,7 +16,7 @@ public class LuaRuntime
         _lua.Globals["raft"] = raft;
 
         LogAPI.Register(_lua, raft);
-        RaftLua.Core.API.Version.Register(_lua, raft);
+        RaftLua.src.API.Version.Register(_lua, raft);
     }
 
     public void ExecuteFile(string path)

@@ -1,4 +1,4 @@
-namespace RaftLua.Core.cpackages;
+namespace RaftLua.src.Packages;
 
 static class Log
 {
