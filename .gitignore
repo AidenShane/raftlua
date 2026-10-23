@@ -17,3 +17,5 @@ obj/
 
 # Debug Files
 Program.cs
+commit.sh
+dotnet-install.sh
