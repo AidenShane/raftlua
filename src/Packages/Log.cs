@@ -16,7 +16,7 @@ static class Log
         return newText;
     }
 
-    static public void Charout(string[] text)
+    static public void CharOut(string[] text)
     {
         string full = prefix + ": " + ConcatenateText(text);
 

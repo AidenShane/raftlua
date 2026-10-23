@@ -3,10 +3,10 @@
 <p>Allow .lua files to run and access Raft through a CSharp interpretor.</p>
 
 <h2>Disclaimer</h2>
-<h1>Compatibility</h1>
-<p> This piece of software was primarily developed on <a href="https://bazzite.gg/#our-team"> Bazzite Linux </a>. This software may have trouble working on or be completely broke on Windows. This was developed for the <strong> Steam </strong> version of Raft.</p>
+<h3>Compatibility</h3>
+<p> This piece of software was primarily developed on <a href="https://bazzite.gg/#our-team"> Bazzite Linux </a>. This software may have trouble working on or be completely broken on Windows. This was developed for the <strong> Steam </strong> version of Raft.</p>
 <hr>
-<h1>Affilitiation</h1>
+<h3>Affilitiation</h3>
 <b>I am not affiliated with Raft, it's publisher Axolot Games, or it's developer Redbeet Interactive and not claiming to be in any way. </b>
 <b>i am not affiliated with BepInEx, it's maintainers, or it's contributors and not claiming to be in any way. </b>
 

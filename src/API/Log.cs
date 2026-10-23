@@ -15,7 +15,7 @@ public class LogAPI : ILuaApi
                     ? args[0].ToPrintString()
                     : "";
 
-                Packages.Log.Charout([message]);
+                Packages.Log.CharOut([message]);
 
                 return DynValue.Nil;
             })
