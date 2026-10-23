@@ -1,0 +1,16 @@
+# Build output
+bin/
+obj/
+
+# IDE settings
+.vscode/
+.idea/
+
+# User Files
+*.user
+*.suo
+
+# Secrets
+.env
+.env.*
+!.env.example
