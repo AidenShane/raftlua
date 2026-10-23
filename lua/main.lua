@@ -1,6 +1,15 @@
+local function testLua()
+    print("Lua is running!")
+end
 
-print("Lua is running!")
+local function testApi()
+    print("-- API --")
+    for key, value in pairs(raft) do
+        print(string.format("[%s]: %s", key, tostring(value)))
+    end
+    print("-- END --")
+    raft.Log("Version: "..raft.Version)
+end
 
-raft.Log("Hello from C#!")
-raft.Log("I can call functions exposed by the runtime.")
-raft.Log("Version: "..raft.Version)
+testLua()
+testApi()
