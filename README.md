@@ -12,4 +12,5 @@
 
 <h2>Packages</h2>
 <strong><a href="https://github.com/BepInEx/BepInEx">BepInEx</a></strong>
-<p>BepInEx is a modding framework public on GitHub under the LGPL-2.1 license. </p>
+<p>BepInEx is a Unity modding framework public on GitHub under the LGPL-2.1 license. </p>
+<b>Use the bleeding edge x64 IL2CPP Windows version of BepInEx for raft since Raft is an x64 game, uses IL2CPP backend, and the executable is a windows .exe file. </b>

@@ -10,6 +10,14 @@
 
   <ItemGroup>
     <PackageReference Include="MoonSharp" Version="2.0.0" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>src/bin/Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>src/bin/UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
   </ItemGroup>
 
 </Project>

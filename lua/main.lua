@@ -9,6 +9,7 @@ local function testApi()
     end
     print("-- END --")
     raft.Log("Version: "..raft.Version)
+    raft.Error("This is a test error!")
 end
 
 testLua()
